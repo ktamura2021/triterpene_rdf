@@ -1,0 +1,282 @@
+@prefix up_taxonomy: <http://purl.uniprot.org/taxonomy/> .
+@prefix : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#> .
+
+[]
+    :ID "TP0028" ;
+    :up_taxonomy up_taxonomy:34305 .
+
+[]
+    :ID "TP0029" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0050" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0051" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0066" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0089" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0091" ;
+    :up_taxonomy up_taxonomy:2768810 .
+
+[]
+    :ID "TP0093" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0103" ;
+    :up_taxonomy up_taxonomy:15368 .
+
+[]
+    :ID "TP0106" ;
+    :up_taxonomy up_taxonomy:4565 .
+
+[]
+    :ID "TP0109" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0111" ;
+    :up_taxonomy up_taxonomy:2768810 .
+
+[]
+    :ID "TP0114" ;
+    :up_taxonomy up_taxonomy:2768810 .
+
+[]
+    :ID "TP0133" ;
+    :up_taxonomy up_taxonomy:38783 .
+
+[]
+    :ID "TP0143" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0149" ;
+    :up_taxonomy up_taxonomy:458696 .
+
+[]
+    :ID "TP0162" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0163" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0164" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0165" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0179" ;
+    :up_taxonomy up_taxonomy:325984 .
+
+[]
+    :ID "TP0197" ;
+    :up_taxonomy up_taxonomy:34305 .
+
+[]
+    :ID "TP0200" ;
+    :up_taxonomy up_taxonomy:325984 .
+
+[]
+    :ID "TP0202" ;
+    :up_taxonomy up_taxonomy:325984 .
+
+[]
+    :ID "TP0205" ;
+    :up_taxonomy up_taxonomy:190884 .
+
+[]
+    :ID "TP0206" ;
+    :up_taxonomy up_taxonomy:190884 .
+
+[]
+    :ID "TP0250" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0258" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0259" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0262" ;
+    :up_taxonomy up_taxonomy:458696 .
+
+[]
+    :ID "TP0267" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0272" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0274" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0275" ;
+    :up_taxonomy up_taxonomy:185493 .
+
+[]
+    :ID "TP0315" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0316" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0317" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0318" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0319" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0320" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0326" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0327" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0328" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0329" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0332" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0333" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0351" ;
+    :up_taxonomy up_taxonomy:3555 .
+
+[]
+    :ID "TP0352" ;
+    :up_taxonomy up_taxonomy:63459 .
+
+[]
+    :ID "TP0354" ;
+    :up_taxonomy up_taxonomy:3847 .
+
+[]
+    :ID "TP0357" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0358" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0364" ;
+    :up_taxonomy up_taxonomy:4236 .
+
+[]
+    :ID "TP0365" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0366" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0367" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0369" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0370" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0371" ;
+    :up_taxonomy up_taxonomy:3562 .
+
+[]
+    :ID "TP0414" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0416" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0417" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0418" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0419" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0420" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0421" ;
+    :up_taxonomy up_taxonomy:155640 .
+
+[]
+    :ID "TP0422" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0436" ;
+    :up_taxonomy up_taxonomy:4081 .
+
+[]
+    :ID "TP0078" ;
+    :up_taxonomy up_taxonomy:39947 .
+
+[]
+    :ID "TP0215" ;
+    :up_taxonomy up_taxonomy:48106 .
+
+[]
+    :ID "TP0283" ;
+    :up_taxonomy up_taxonomy:4054 .
