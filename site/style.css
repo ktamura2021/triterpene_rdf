@@ -1,0 +1,39 @@
+/* 全体的なスタイル設定 */
+body {
+    font-family: Arial, sans-serif; /* サンセリフフォント */
+    font-size: 14px; /* 小さい文字サイズ */
+    color: #333;    /* 暗めの文字色 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #191970; /* ミッドナイトブルー */
+}
+
+/* テーブルのスタイル */
+table {
+    width: 100%;           /* テーブルの幅を最大に */
+    border-collapse: collapse; /* セルのボーダーを重ねる */
+    margin-top: 20px;      /* 上の余白 */
+}
+
+table th,
+table td {
+    padding: 10px;          /* セル内の余白 */
+    border: 1px solid #e0e0e0; /* セルのボーダー色 */
+    text-align: left;       /* テキストを左揃え */
+}
+
+table th {
+    background-color: #e6f7ff; /* 薄いブルー系の背景色 */
+    color: #191970;        /* ヘッダの文字色 (ミッドナイトブルー) */
+    font-weight: bold;     /* ヘッダの文字を太く */
+}
+
+table tr:nth-child(even) {
+    background-color: #f5f5f5; /* 偶数行の背景色を薄く */
+}
+
+/* ホバー効果 */
+table tr:hover {
+    background-color: #e6f7ff; /* マウスオーバー時の行の背景色 */
+}
