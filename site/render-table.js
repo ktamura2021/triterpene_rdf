@@ -17,9 +17,39 @@ $(function () { // When DOM is ready
     })
     .catch(error => console.error('Error:', error));
 
+  fetch('site/pathway.candidates')
+    .then(response => response.text())
+    .then(text => {
+      let rows = text.trim().split('\n');
+      let selectType = document.getElementById('select-pathway');
+
+      let firstOption = document.createElement('option');
+      firstOption.innerText = '';
+      selectType.appendChild(firstOption);
+
+      rows.forEach(row => {
+        let option = document.createElement('option');
+        option.innerText = row;
+        selectType.appendChild(option);
+      });
+    })
+    .catch(error => console.error('Error:', error));
+
   $('#select-type').on('change', function() {
-    const selectedValue = $(this).val();
-    fetchDatabySPARQL(selectedValue).then(data => {
+    const selectedType = $(this).val();
+    const selectedPathway = $('#select-pathway').val();
+    fetchDatabySPARQL(selectedType).then(data => {
+      renderTable(data);
+    }).catch(error => {
+      console.error('Error fetching data:', error);
+      document.getElementById('resultsTable').innerHTML = 'Error fetching data.';
+    });
+  });
+
+  $('#select-pathway').on('change', function() {
+    const selectedType = $('#select-type').val();
+    const selectedPathway = $(this).val();
+    fetchDatabySPARQL(selectedType, selectedPathway).then(data => {
       renderTable(data);
     }).catch(error => {
       console.error('Error fetching data:', error);
