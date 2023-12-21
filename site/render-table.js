@@ -35,10 +35,29 @@ $(function () { // When DOM is ready
     })
     .catch(error => console.error('Error:', error));
 
+  fetch('site/order.candidates')
+    .then(response => response.text())
+    .then(text => {
+      let rows = text.trim().split('\n');
+      let selectType = document.getElementById('select-order');
+
+      let firstOption = document.createElement('option');
+      firstOption.innerText = '';
+      selectType.appendChild(firstOption);
+
+      rows.forEach(row => {
+        let option = document.createElement('option');
+        option.innerText = row;
+        selectType.appendChild(option);
+      });
+    })
+    .catch(error => console.error('Error:', error));
+
   $('#select-type').on('change', function() {
     const selectedType = $(this).val();
     const selectedPathway = $('#select-pathway').val();
-    fetchDatabySPARQL(selectedType).then(data => {
+    const selectedOrder = $('#select-order').val();
+    fetchDatabySPARQL(selectedType, selectedPathway, selectedOrder).then(data => {
       renderTable(data);
     }).catch(error => {
       console.error('Error fetching data:', error);
@@ -49,7 +68,20 @@ $(function () { // When DOM is ready
   $('#select-pathway').on('change', function() {
     const selectedType = $('#select-type').val();
     const selectedPathway = $(this).val();
-    fetchDatabySPARQL(selectedType, selectedPathway).then(data => {
+    const selectedOrder = $('#select-order').val();
+    fetchDatabySPARQL(selectedType, selectedPathway, selectedOrder).then(data => {
+      renderTable(data);
+    }).catch(error => {
+      console.error('Error fetching data:', error);
+      document.getElementById('resultsTable').innerHTML = 'Error fetching data.';
+    });
+  });
+
+  $('#select-order').on('change', function() {
+    const selectedType = $('#select-type').val();
+    const selectedPathway = $('#select-pathway').val();
+    const selectedOrder = $(this).val();
+    fetchDatabySPARQL(selectedType, selectedPathway, selectedOrder).then(data => {
       renderTable(data);
     }).catch(error => {
       console.error('Error fetching data:', error);

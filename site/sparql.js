@@ -1,4 +1,4 @@
-async function fetchDatabySPARQL(selectedType, selectedPathway) {
+async function fetchDatabySPARQL(selectedType, selectedPathway, selectedOrder) {
   const endpointUrl = 'https://spang.dbcls.jp/sparql';
   let valuesForType = '';
   if (selectedType) {
@@ -7,6 +7,10 @@ async function fetchDatabySPARQL(selectedType, selectedPathway) {
   let valuesForPathway = '';
   if (selectedPathway) {
     valuesForPathway = `VALUES (?pathway) { ("${selectedPathway}") }`;
+  }
+  let valuesForOrder = '';
+  if (selectedOrder) {
+    valuesForOrder = `VALUES (?order) { ("${selectedOrder}") }`;
   }
   const sparqlQuery = `
 PREFIX up: <http://purl.uniprot.org/uniprot/>
@@ -17,6 +21,7 @@ SELECT ?type ?name ?pathway ?function ?uniprot ?family ?order ?species ?pubmed
 WHERE {
   ${valuesForType}
   ${valuesForPathway}
+  ${valuesForOrder}
   ?s  :type ?type ;
       :name ?name ;
       :pathway ?pathway ;
