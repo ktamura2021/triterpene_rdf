@@ -1,4 +1,11 @@
 $(function () { // When DOM is ready
+  fetchDatabySPARQL('', '', '').then(data => {
+    renderTable(data);
+  }).catch(error => {
+    console.error('Error fetching data:', error);
+    document.getElementById('resultsTable').innerHTML = 'Error fetching data.';
+  });
+
   fetch('site/type.candidates')
     .then(response => response.text())
     .then(text => {
