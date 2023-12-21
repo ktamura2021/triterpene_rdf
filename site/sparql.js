@@ -5,11 +5,12 @@ PREFIX up: <http://purl.uniprot.org/uniprot/>
 PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
 PREFIX : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#>
 
-SELECT ?type ?name ?function ?uniprot ?pubmed
+SELECT ?type ?name ?pathway ?function ?uniprot ?pubmed
 WHERE {
   VALUES (?type) { ("${value}") }
   ?s  :type ?type ;
       :name ?name ;
+      :pathway ?pathway ;
       :function ?function ;
       :uniprot ?uniprot ;
       :pubmed ?pubmed .
