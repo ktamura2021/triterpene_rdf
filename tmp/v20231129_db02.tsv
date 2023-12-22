@@ -7,11 +7,11 @@ TP0005	OSC	CAS1	steroid		cycloartenol synthase	P38605		7505443
 TP0006	OSC	BPX	steroid		cycloartenol synthase	Q8W3Z4		12736505		
 TP0007	OSC	BPX2	steroid		cycloartenol synthase	Q8W3Z3		12736505		
 TP0008	OSC	CSOSC1	steroid		cycloartenol synthase	Q8VWY4		11995928		
-TP0009	OSC	CPX	steroid		cycloartenol synthase	Q6BE25			10.1016/j.tet.2004.04.088	
+TP0009	OSC	CPX	steroid		cycloartenol synthase	Q6BE25			https://doi.org/10.1016/j.tet.2004.04.088	
 TP0010	OSC	GgCAS1	steroid		cycloartenol synthase	Q9SXV6		10706391		
 TP0011	OSC	KdCAS	steroid		cycloartenol synthase	E2IUB0		20610397		
 TP0012	OSC	KcCAS	steroid		cycloartenol synthase	A7BJ36		17617700		
-TP0013	OSC	OSC5	steroid		cycloartenol synthase	Q2WGL6			10.1016/j.plantsci.2005.08.027	
+TP0013	OSC	OSC5	steroid		cycloartenol synthase	Q2WGL6			https://doi.org/10.1016/j.plantsci.2005.08.027	
 TP0014	OSC	LcCAS1	steroid		cycloartenol synthase	Q9SLP9		11733028		
 TP0015	OSC	OsOSC1	steroid		cycloartenol synthase	Q6Z2X6		21526825		
 TP0016	OSC	PNX	steroid		cycloartenol synthase	O82139		9746369		
@@ -19,7 +19,7 @@ TP0017	OSC	CASPEA	steroid		cycloartenol synthase	O23909		9255418
 TP0018	OSC	RsCAS	steroid		cycloartenol synthase	A7BJ35		17617700		
 TP0019	OSC	RcCAS	steroid		cycloartenol synthase	Q2XPU6		16445885		
 TP0020	OSC	LsOSC5	steroid		cycloartenol synthase	A0A3S9W0N1		30472753		
-TP0021	OSC	CPQ	triterpenoid	cucurbitadienol	cucurbitadienol synthase	Q6BE24			10.1016/j.tet.2004.04.088	
+TP0021	OSC	CPQ	triterpenoid	cucurbitadienol	cucurbitadienol synthase	Q6BE24			https://doi.org/10.1016/j.tet.2004.04.088	
 TP0022	OSC	SgCbQ	triterpenoid	cucurbitadienol	cucurbitadienol synthase	K7NBZ9		25759326		
 TP0023	OSC	OsOSC2	triterpenoid	parkeol	parkeol synthase	H2KWF1		21526825		
 TP0024	OSC	OsOSC6	triterpenoid	achilleol B	achilleol B synthase	Q2R712		21526825		
@@ -34,13 +34,13 @@ TP0032	OSC	CrAS	triterpenoid	α-amyrin	α-amyrin synthase	I1Z9G0		22837051
 TP0033	OSC	LsOSC2	triterpenoid	α-amyrin	α-amyrin synthase	A0A3S9W0L0		30472753		
 TP0034	OSC	LUP4|AtBAS	triterpenoid	β-amyrin	β-amyrin synthase	B6EXY6		18977664		
 TP0035	OSC	AaBAS	triterpenoid	β-amyrin	β-amyrin synthase	B1P7H3		18336574		
-TP0036	OSC	AsOXA1	triterpenoid	β-amyrin	β-amyrin synthase	Q5D7Q8			10.1016/j.plantsci.2008.04.004	
+TP0036	OSC	AsOXA1	triterpenoid	β-amyrin	β-amyrin synthase	Q5D7Q8			https://doi.org/10.1016/j.plantsci.2008.04.004	
 TP0037	OSC	AsbAS1|Sad1	triterpenoid	β-amyrin	β-amyrin synthase	Q93WU1		11606766		
 TP0038	OSC	BPY	triterpenoid	β-amyrin	β-amyrin synthase	Q8W3Z1		12736505		
 TP0039	OSC	BgbAS	triterpenoid	β-amyrin	β-amyrin synthase	A8CDT2		17803686		
 TP0040	OSC	EtAS	triterpenoid	β-amyrin	β-amyrin synthase	Q401R6		16005035		
 TP0041	OSC	GgbAS1	triterpenoid	β-amyrin	β-amyrin synthase	Q9MB42		11510484		
-TP0042	OSC	OSC1	triterpenoid	β-amyrin	β-amyrin synthase	Q2WGL8			10.1016/j.plantsci.2005.08.027	
+TP0042	OSC	OSC1	triterpenoid	β-amyrin	β-amyrin synthase	Q2WGL8			https://doi.org/10.1016/j.plantsci.2005.08.027	
 TP0043	OSC	MtAMY1	triterpenoid	β-amyrin	β-amyrin synthase	Q84PE3		12683345		
 TP0044	OSC	NsβAS1	triterpenoid	β-amyrin	β-amyrin synthase	B5TTV1		19282005		
 TP0045	OSC	PNY	triterpenoid	β-amyrin	β-amyrin synthase	O82140		9746369		
@@ -59,7 +59,7 @@ TP0057	OSC	BPW	triterpenoid	lupeol	lupeol synthase	Q8W3Z2		12736505
 TP0058	OSC	BgLUS	triterpenoid	lupeol	lupeol synthase	A8CDT3		17803686		
 TP0059	OSC	GgLUS1	triterpenoid	lupeol	lupeol synthase	Q764T8		15256745		
 TP0060	OSC	KdLUS	triterpenoid	lupeol	lupeol synthase	E2IUA9		20610397		
-TP0061	OSC	OSC3	triterpenoid	lupeol	lupeol synthase	Q2WGL7			10.1016/j.plantsci.2005.08.027	
+TP0061	OSC	OSC3	triterpenoid	lupeol	lupeol synthase	Q2WGL7			https://doi.org/10.1016/j.plantsci.2005.08.027	
 TP0062	OSC	OEW	triterpenoid	lupeol	lupeol synthase	Q9SLW3		10542078		
 TP0063	OSC	RcLUS	triterpenoid	lupeol	lupeol synthase	Q2XPU7		16445885		
 TP0064	OSC	TRW	triterpenoid	lupeol	lupeol synthase	Q9SLW1		10542078		
@@ -84,7 +84,7 @@ TP0082	OSC	CAMS1|LUP3	triterpenoid	camelliol C	camelliol C synthase	P0C8Y0		1798
 TP0083	OSC	RsM1	triterpenoid	germanicol	germanicol synthase	A8C980		17803686		
 TP0084	OSC	MdOSC4	triterpenoid	germanicol	germanicol synthase	A0A142LT03		27214242		
 TP0085	OSC	RsM2	triterpenoid	taraxerol	taraxerol synthase	A8C981		17803686		
-TP0086	OSC	LUP5	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase	Q9FZI2			10.1351/pac200375020369	
+TP0086	OSC	LUP5	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase	Q9FZI2			https://doi.org/10.1351/pac200375020369	
 TP0087	OSC	PEN3	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase	Q9LVY2		19445469		
 TP0088	OSC	MaOSC1	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase	A0A5B8NBE6		31371503		
 TP0089	OSC	CsOSC1	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase		XP_006468116.1	31371503		
@@ -94,7 +94,7 @@ TP0092	OSC	PEN1	triterpenoid	arabidiol	arabidiol synthase	Q9FR95		16774269,17474
 TP0093	OSC	CqOSC2|CqQS	triterpenoid	(−)-quinoxide A	(−)-quinoxide A synthase		XP_021761950.1	37904576		
 TP0094	OSC	PEN6	triterpenoid	β-seco-amyrin|α-seco-amyrin	seco-amyrin synthase (β-seco-amyrin, α-seco-amyrin)	Q9SYN1		17263431		
 TP0095	OSC	PSM	triterpenoid	α-amyrin|β-amyrin	mixed amyrin synthase (α-amyrin, β-amyrin)	Q9LRH7		10848960		
-TP0096	OSC	LUP2|YUP8H12R.43	triterpenoid	taraxasterol|β-amyrin	multifunctional triterpene synthase (taraxasterol, β-amyrin, etc.)	Q8RWT0			10.1016/S0040-4039(00)01347-2	
+TP0096	OSC	LUP2|YUP8H12R.43	triterpenoid	taraxasterol|β-amyrin	multifunctional triterpene synthase (taraxasterol, β-amyrin, etc.)	Q8RWT0			https://doi.org/10.1016/S0040-4039(00)01347-2	
 TP0097	OSC	CSOSC2	triterpenoid	lupeol|germanicol|β-amyrin	multifunctional triterpene synthase (lupeol, germanicol, β-amyrin)	Q8VWY3		11995928		
 TP0098	OSC	KcMS	triterpenoid	lupeol|β-amyrin|α-amyrin	multifunctional triterpene synthase (lupeol, β-amyrin, α-amyrin)	Q05K37		17078982		
 TP0099	OSC	AMY2	triterpenoid	lupeol|β-amyrin	multifunctional triterpene synthase (lupeol, β-amyrin)	Q84PE1		12683345		production of β-amyrin, dihydrolupeol in Nicotiana benthamiana (pubmed:23909862)
@@ -342,7 +342,7 @@ TP0340	UGT	PzGAT2	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	A0A385MJ24	
 TP0341	UGT	PzGAT3	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	A0A385MJ23		30219960		
 TP0342	UGT	PjGAT	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	A0A385MJ20		30219960		
 TP0343	UGT	Pq3-O-UGT2	triterpenoid	dammarenediol-II	glucosyltransferase	A0A0M4ME80		27914321		
-TP0344	UGT	Pq3-O-UGT1	triterpenoid	dammarenediol-II	3-O-glucuronosyltransferase	A0A0M4LS39			10.1007/s11240-017-1190-y	
+TP0344	UGT	Pq3-O-UGT1	triterpenoid	dammarenediol-II	3-O-glucuronosyltransferase	A0A0M4LS39			https://doi.org/10.1007/s11240-017-1190-y	
 TP0345	other_enzyme	GuCSyGT	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	A0A7I6P8N6		33199711		
 TP0346	other_enzyme	LjCSyGT	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	A0A7I6P8A1		33199711		
 TP0347	other_enzyme	GmCSyGT1	triterpenoid	β-amyrin	3-O-glucuronosyltransferase	I1KFY7		33199711		
