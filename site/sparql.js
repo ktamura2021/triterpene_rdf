@@ -82,6 +82,8 @@ WHERE {
   ?s  :type ?type ;
       :ID ?ID ;
       :name ?name ;
+      :pathway ?pathway ;
+      :order ?order ;
       :aa_sequence ?sequence .
 }
 `;
