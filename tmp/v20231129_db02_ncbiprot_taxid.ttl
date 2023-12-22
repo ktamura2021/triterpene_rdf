@@ -1,5 +1,5 @@
 @prefix up_taxonomy: <http://purl.uniprot.org/taxonomy/> .
-@prefix : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#> .
+@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .
 
 []
     :ID "TP0028" ;
