@@ -5,7 +5,7 @@ PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX up: <http://purl.uniprot.org/uniprot/>
 PREFIX core: <http://purl.uniprot.org/core/>
-PREFIX : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#>
+PREFIX : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#>
 
 SELECT ?ID ?aa_sequence
 WHERE {
