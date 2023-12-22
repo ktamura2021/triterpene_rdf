@@ -7,7 +7,6 @@ fp = open(file_name.replace('.tsv', '.ttl'), 'w')
 fp.write('@prefix up: <http://purl.uniprot.org/uniprot/> .\n')
 fp.write('@prefix ncbiprotein: <https://www.ncbi.nlm.nih.gov/protein/> .\n')
 fp.write('@prefix pubmed: <https://pubmed.ncbi.nlm.nih.gov/> .\n')
-fp.write('@prefix doi: <https://doi.org/> .\n')
 fp.write('@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .\n')
 
 num = 0
@@ -35,7 +34,7 @@ with open(file_name, encoding='utf-8') as f:
             pubmed = fields[8].strip().split(',')
             for pm in pubmed:
                 fp.write(f'    :pubmed pubmed:{pm} ;\n')
-            fp.write(f'    :doi {fields[9]} ;\n')
+            fp.write(f'    :doi <{fields[9]}> ;\n')
             fp.write(f'    :note "{fields[10]}" .\n')
             num += 1
 
