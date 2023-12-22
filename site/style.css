@@ -37,3 +37,28 @@ table tr:nth-child(even) {
 table tr:hover {
     background-color: #e6f7ff; /* マウスオーバー時の行の背景色 */
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    margin-left: auto;
+}
+
+.rounded {
+    border-radius: 8px;
+}
+
+.rounded-button {
+    cursor: pointer;
+    border: solid 1px gray;
+    border-radius: 8px;
+    opacity: 0.75;
+}
+
+.rounded-button:hover {
+    opacity: 1;
+}
