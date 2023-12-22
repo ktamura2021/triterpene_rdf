@@ -7,11 +7,18 @@
         <link rel="stylesheet" href="site/style.css">
     </head>
     <body>
-        Type: <select id="select-type" class="text-muted rounded" style="width: 150px"></select>
-        &emsp;
-        Pathway: <select id="select-pathway" class="text-muted rounded" style="width: 150px"></select>
-        &emsp;
-        Order: <select id="select-order" class="text-muted rounded" style="width: 150px"></select>
+        <div class="container">
+            <div class="select-container">
+                Type: <select id="select-type" class="text-muted rounded" style="width: 150px"></select>
+                &emsp;
+                Pathway: <select id="select-pathway" class="text-muted rounded" style="width: 150px"></select>
+                &emsp;
+                Order: <select id="select-order" class="text-muted rounded" style="width: 150px"></select>
+            </div>
+            <div class="button-container">
+                <button id="button-download" class="text-muted rounded-button">Download FASTA</button>
+            </div>
+        </div>
         <table border="1" id="resultsTable">
         </table>
         <script src="site/sparql.js"></script>
