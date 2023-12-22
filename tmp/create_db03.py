@@ -47,7 +47,7 @@ for row1 in table1:
         db03.append({**row1, **maching_row})
 
 # export
-output_file_path = 'v20231129_db03.tsv'
+output_file_path = '../v20231129_db03.tsv'
 header = db03[0].keys() if db03 else []
 
 with open(output_file_path, 'w', newline='', encoding='utf-8') as output_file:
