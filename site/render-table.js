@@ -1,4 +1,14 @@
 $(function () { // When DOM is ready
+  document.getElementById('button-download').addEventListener('click', function() {
+    const selectedType = $('#select-type').val();
+    const selectedPathway = $('#select-pathway').val();
+    const selectedOrder = $('#select-order').val();
+    fetchFastaBySPARQL(selectedType, selectedPathway, selectedOrder).then(data => {
+      downloadResults(data);
+    }).catch(error => {
+      console.error('Error fetching data:', error);
+    });
+  });
   fetchDatabySPARQL('', '', '').then(data => {
     renderTable(data);
   }).catch(error => {
@@ -162,4 +172,24 @@ function renderTable(data) {
     tbody.appendChild(tr);
   });
   table.appendChild(tbody);
+}
+
+function downloadResults(data) {
+  let fasta = '';
+  data.results.bindings.forEach(binding => {
+    const id = binding.ID.value;
+    const type = binding.type.value;
+    const name = binding.name.value;
+    const sequence = binding.sequence.value;
+    fasta += `>${id} ${type} ${name}\n${sequence}\n`;
+  });
+
+  const date = new Date().toISOString().slice(0,10);
+  const fileName = `triterpenoid_${date}.fa`;
+
+  const blob = new Blob([fasta], {type: 'text/plain'});
+  const link = document.createElement('a');
+  link.href = window.URL.createObjectURL(blob);
+  link.download = fileName;
+  link.click();
 }
