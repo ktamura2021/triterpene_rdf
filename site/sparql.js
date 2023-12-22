@@ -17,12 +17,13 @@ PREFIX up: <http://purl.uniprot.org/uniprot/>
 PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
 PREFIX : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#>
 
-SELECT ?type ?name ?pathway ?function ?uniprot ?family ?order ?species ?pubmed
+SELECT ?ID ?type ?name ?pathway ?function ?uniprot ?species ?family ?order ?pubmed
 WHERE {
   ${valuesForType}
   ${valuesForPathway}
   ${valuesForOrder}
   ?s  :type ?type ;
+      :ID ?ID ;
       :name ?name ;
       :pathway ?pathway ;
       :function ?function ;
