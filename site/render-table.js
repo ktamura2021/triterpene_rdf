@@ -183,13 +183,13 @@ function downloadResults(data) {
     const sequence = binding.sequence.value;
     fasta += `>${id} ${type} ${name}\n${sequence}\n`;
   });
-
-  const date = new Date().toISOString().slice(0,10);
-  const fileName = `triterpenoid_${date}.fa`;
-
-  const blob = new Blob([fasta], {type: 'text/plain'});
   const link = document.createElement('a');
-  link.href = window.URL.createObjectURL(blob);
-  link.download = fileName;
+  const blob = new Blob([fasta], {type: 'text/plain'});
+  const date = new Date().toISOString().slice(0,10);
+  link.href = URL.createObjectURL(blob);
+  link.download = `triterpenoid_${date}.fa`;
+  document.body.appendChild(link);
   link.click();
+  document.body.removeChild(link);
+  URL.revokeObjectURL(link.href);
 }
