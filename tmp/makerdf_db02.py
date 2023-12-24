@@ -19,7 +19,7 @@ with open(file_name, encoding='utf-8') as f:
             fields = row.strip().split('\t')
             fp.write('\n')
             fp.write(f'[]\n') # blank node
-            col_blank = 11 - len(fields)
+            col_blank = 10 - len(fields)
             fields_blank = [''] * col_blank
             fields = fields + fields_blank
 
@@ -27,15 +27,12 @@ with open(file_name, encoding='utf-8') as f:
             fp.write(f'    :type "{fields[1]}" ;\n')
             fp.write(f'    :name "{fields[2]}" ;\n')
             fp.write(f'    :pathway "{fields[3]}" ;\n')
-            fp.write(f'    :scaffold "{fields[4]}" ;\n')
+            fp.write(f'    :skeleton "{fields[4]}" ;\n')
             fp.write(f'    :function "{fields[5]}" ;\n')
             fp.write(f'    :uniprot up:{fields[6]} ;\n')
             fp.write(f'    :ncbiprotein ncbiprotein:{fields[7]} ;\n')
-            pubmed = fields[8].strip().split(',')
-            for pm in pubmed:
-                fp.write(f'    :pubmed pubmed:{pm} ;\n')
-            fp.write(f'    :doi <{fields[9]}> ;\n')
-            fp.write(f'    :note "{fields[10]}" .\n')
+            fp.write(f'    :pubmed pubmed:{fields[8]} ;\n')
+            fp.write(f'    :note "{fields[9]}" .\n')
             num += 1
 
 
