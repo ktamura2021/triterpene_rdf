@@ -29,7 +29,7 @@ OSC	MdOSC3	triterpenoid	α-amyrin	α-amyrin synthase	C7SCX2		27214242
 OSC	OSC9	triterpenoid	α-amyrin	α-amyrin synthase		BBK68801.1	31418782	
 OSC	CqOSC11	triterpenoid	α-amyrin	α-amyrin synthase		XP_021715857.1	37904576	
 OSC	LUP5-P	triterpenoid	α-amyrin	α-amyrin synthase	A0A0U2THX5		26333142	
-OSC	CaDDS	triterpenoid	α-amyrin|dammarenediol-II	α-amyrin synthase|dammarenediol-II synthase	Q6QZW8		24434554,19796960	α-amyrin:β-amyrin:dammarenediol-II = 88:11:1 (pubmed:24434554)|dammarenediol-II synthase (pubmed:19796960)
+OSC	CaDDS	triterpenoid	α-amyrin	α-amyrin synthase	Q6QZW8		24434554	reported as dammarenediol-II synthase (pubmed:19796960)
 OSC	CrAS	triterpenoid	α-amyrin	α-amyrin synthase	I1Z9G0		22837051	
 OSC	LsOSC2	triterpenoid	α-amyrin	α-amyrin synthase	A0A3S9W0L0		30472753	
 OSC	LUP4|AtBAS	triterpenoid	β-amyrin	β-amyrin synthase	B6EXY6		18977664	
@@ -90,7 +90,7 @@ OSC	MaOSC1	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (t
 OSC	CsOSC1	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase		XP_006468116.1	31371503	
 OSC	AiOSC1	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase	A0A5B8NBN0		31371503	
 OSC	AaOSC2	triterpenoid	tirucalla-7,24-dien-3β-ol	tirucalla-7,24-dien-3β-ol (tirucalladienol) synthase		UTU07506.1	36082289	
-OSC	PEN1	triterpenoid	arabidiol	arabidiol synthase	Q9FR95		16774269,17474751	
+OSC	PEN1	triterpenoid	arabidiol	arabidiol synthase	Q9FR95		17474751	also reported in pubmed:16774269
 OSC	CqOSC2|CqQS	triterpenoid	(−)-quinoxide A	(−)-quinoxide A synthase		XP_021761950.1	37904576	
 OSC	PEN6	triterpenoid	β-seco-amyrin|α-seco-amyrin	seco-amyrin synthase (β-seco-amyrin, α-seco-amyrin)	Q9SYN1		17263431	
 OSC	PSM	triterpenoid	α-amyrin|β-amyrin	mixed amyrin synthase (α-amyrin, β-amyrin)	Q9LRH7		10848960	
@@ -126,7 +126,7 @@ P450	CYP72A68	triterpenoid	β-amyrin	23-oxidase	Q2MJ19		31144047
 P450	CYP72A68v2	triterpenoid	β-amyrin	23-oxidase	H1A985		23378447	
 P450	CYP72A69|Sg-5	triterpenoid	β-amyrin	21β-hydroxylase	I1MIY0		27775214	
 P450	GmaxCYP72A141	triterpenoid	β-amyrin	29-hydroxylase	A0A5P8TY68		31850023	
-P450	CYP72A154	triterpenoid	β-amyrin	21-hydroxylase|29-hydroxylase|30-oxidase	H1A988		22128119,31850023	
+P450	CYP72A154	triterpenoid	β-amyrin	21-hydroxylase|29-hydroxylase|30-oxidase	H1A988		22128119	also reported in pubmed:31850023
 P450	GgCYP72A154	triterpenoid	β-amyrin	21-hydroxylase|29-hydroxylase|30-hydroxylase	A0A5P8TXJ1		31850023	
 P450	GpCYP72A154	triterpenoid	β-amyrin	21-hydroxylase|29-hydroxylase|30-hydroxylase	A0A5P8TXI9		31850023	
 P450	CYP72A302	triterpenoid	β-amyrin	21-hydroxylase|29-hydroxylase	V7AM57		31850023	
@@ -153,7 +153,7 @@ P450	CYP82J17	steroid		26-hydroxylase	A0A517FND1		31324795
 P450	CYP82AS1	triterpenoid	β-amyrin	22α-hydroxylase	A0A8T8L8F7		38013483	
 P450	CYP85A1|BR6ox1	steroid		6-oxidase	Q9FMA5		11402205	
 P450	CYP85A1|DWARF	steroid		6-oxidase	Q43147		9990098	
-P450	CYP85A2|BR6ox2	steroid		6-oxidase	Q940V4		12529536,15710611	
+P450	CYP85A2|BR6ox2	steroid		6-oxidase	Q940V4		12529536	also reported in pubmed:15710611
 P450	CYP85A3	steroid		6-oxidase	Q50LE0		15710611	
 P450	CYP87D16	triterpenoid	β-amyrin	16α-hydroxylase	A0A0B4KZX8		25578277	
 P450	CYP87D18	triterpenoid	cucurbitadienol	11-oxidase	K7NBR2		26903528	
@@ -174,8 +174,8 @@ P450	CYP90B2|OsDWARF4	steroid		22S-hydroxylase	Q5CCK3		16369540
 P450	CYP90B3	steroid		22S-hydroxylase	A0ZS63		16960392	
 P450	CYP90B27v1	steroid		22R-hydroxylase	A0A0F6PML0		25939370	
 P450	PpCYP90B27	steroid		22R-hydroxylase	A0A5A4DV62		30268044	
-P450	CYP90B50	steroid		16S-hydroxylase|22S-hydroxylase|22R-hydroxylase	A0A517FND3		31324795,34816537	
-P450	CYP90B51	steroid		22S-hydroxylase|22R-hydroxylase	A0A517FNC6		34816537,31324795	
+P450	CYP90B50	steroid		16S-hydroxylase|22S-hydroxylase|22R-hydroxylase	A0A517FND3		31324795	also reported in pubmed:34816537
+P450	CYP90B51	steroid		22S-hydroxylase|22R-hydroxylase	A0A517FNC6		34816537	also reported in pubmed:31324795
 P450	CYP90B52	steroid		22S-hydroxylase	A0A517FNB9		31324795	
 P450	CYP90B71	steroid		22R-hydroxylase		QPZ88854.1	34816537	
 P450	CYP90C1|ROT3	steroid		23R-hydroxylase	Q9M066		17138693	
@@ -183,10 +183,10 @@ P450	CYP90D1	steroid		23R-hydroxylase	Q94IA6		17138693
 P450	CYP90D2|D2	steroid		23R-hydroxylase	Q94IW5		22846333	
 P450	CYP90D3	steroid		23R-hydroxylase	Q6L4R0		22846333	
 P450	CYP90G1v3	steroid		22-oxidase	A0A0F6PMN4		25939370	
-P450	CYP90G4	steroid		16S-hydroxylase|22-oxidase	A0A517FNC5		34816537,31324795	
+P450	CYP90G4	steroid		16S-hydroxylase|22-oxidase	A0A517FNC5		34816537	also reported in pubmed:31324795
 P450	CYP90G6	steroid		16S-hydroxylase|22-oxidase	A0A9D5C7U6		34816537	
 P450	CYP93A220|IaAO5	triterpenoid	β-amyrin	24-oxidase	A0A976SHZ3		35422828	
-P450	CYP93E1	triterpenoid	β-amyrin	24-oxidase	Q9XHC6		16478469,25453910	
+P450	CYP93E1	triterpenoid	β-amyrin	24-oxidase	Q9XHC6		16478469	also reported in pubmed:25453910
 P450	CYP93E2	triterpenoid	β-amyrin	24-hydroxylase	Q2MJ11		23378447	
 P450	CYP93E3	triterpenoid	β-amyrin	24-hydroxylase	B5BT05		18779566	
 P450	CYP93E4	triterpenoid	β-amyrin	24-oxidase	A0A088LHH3		25453910	
@@ -201,7 +201,7 @@ P450	CYP94D109	steroid		26-hydroxylase	A0A517FND0		31324795
 P450	CYP94D143	steroid		26-hydroxylase		QPZ88857.1	34816537	
 P450	CYP94N1v2	steroid		26-oxidase	A0A0F6PMN1		25939370	
 P450	CYP94N8	steroid		26-hydroxylase		QPZ88856.1	34816537	
-P450	CYP705A1	triterpenoid	arabidiol	C-C cleavage at C14-C15 bond	Q0WQ07		23570231,25724638	
+P450	CYP705A1	triterpenoid	arabidiol	C-C cleavage at C14-C15 bond	Q0WQ07		23570231	also reported in pubmed:25724638
 P450	CYP705A5|THAO	triterpenoid	thalianol	16-oxidase	Q9FI39		31073042	
 P450	CYP708A15v2	triterpenoid	cucurbitadienol	22-hydroxylase		UAK14950.1	34264303	
 P450	CYP708A16	triterpenoid	cucurbitadienol	16β-hydroxylase		UAK14955.1	34264303	
@@ -209,15 +209,15 @@ P450	CYP708A2|THAH	triterpenoid	thalianol	7β-hydroxylase	Q8L7D5		31073042
 P450	CYP710A1	steroid		22-desaturase	O64697		16531502	
 P450	CYP710A2	steroid		22-desaturase	O64698		16531502	
 P450	CYP710A11	steroid		22-desaturase	Q1T7C2		16531502	
-P450	CYP712K1	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9Q9		31992268,38013483	
-P450	CYP712K2	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9N0		31992268,38013483	
-P450	CYP712K3	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9N1		31992268,38013483	
+P450	CYP712K1	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9Q9		31992268	also reported in pubmed:38013483
+P450	CYP712K2	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9N0		31992268	also reported in pubmed:38013483
+P450	CYP712K3	triterpenoid	friedelin|β-amyrin	29-oxidase	A0A6C0G9N1		31992268	also reported in pubmed:38013483
 P450	CYP712K4	triterpenoid	friedelin	29-oxidase	A0A5B8H9L8		31350564	
 P450	CYP714E19	triterpenoid	α-amyrin|β-amyrin	23-oxidase			29579306	manual translation of insdc:KT004520.1
 P450	CYP714E88|IaAO4	triterpenoid	α-amyrin|β-amyrin	23-oxidase	A0A976SHZ5		35422828	
 P450	CYP716A1	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	Q9LVY7		26801524	
 P450	CYP716A2	triterpenoid	α-amyrin|β-amyrin|lupeol	16-hydroxylase|22α-hydroxylase|28-hydroxylase	A0A140JWM8		26801524	
-P450	CYP716A12	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	Q2MJ20		21821776,22039103	
+P450	CYP716A12	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	Q2MJ20		21821776	also reported in pubmed:22039103
 P450	CYP716A14v2	triterpenoid	α-amyrin|β-amyrin|δ-amyrin	3-oxidase	A0A0B4L1W4		25576188	
 P450	CYP716A15	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	F6H9N6		22039103	
 P450	CYP716A17	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A5BFI4		22039103	
@@ -227,7 +227,7 @@ P450	CYP716A48	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A0A090AQE0		31
 P450	CYP716A49	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A0A090AV67		31819715	
 P450	CYP716A50	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A0A090BX92		31819715	
 P450	CYP716A51	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A0A090ATL9		31418782	
-P450	CYP716A52v2	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	I7C6E8		24092881,31819715	
+P450	CYP716A52v2	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	I7C6E8		24092881	also reported in pubmed:31819715
 P450	CYP716A75	triterpenoid	β-amyrin	28-oxidase	A0A0B4L1W8		25578277	
 P450	CYP716A78	triterpenoid	β-amyrin	28-oxidase	A0A1B2AS12		27457995	
 P450	CYP716A79	triterpenoid	β-amyrin	28-oxidase	A0A1B2AS18		27457995	
@@ -401,7 +401,7 @@ other_enzyme	SMT2-1	steroid		24(1)-methyltransferase	D2D5G3		19818974
 other_enzyme	SMT2-2	steroid		24(1)-methyltransferase	D2D5G4		19818974	
 other_enzyme	DET2	steroid		5α-reductase	Q38944		10398719	
 other_enzyme	DWF5	steroid		7-reductase	Q9LDU6		10758495	
-other_enzyme	FK	steroid		14-reductase	Q9LDR4		10859166,10859167	
+other_enzyme	FK	steroid		14-reductase	Q9LDR4		10859166	also reported in pubmed:10859167
 other_enzyme	SlSSR1	steroid		24,28-reductase	A0A0C6FQX1		25217510	
 other_enzyme	SlSSR2	steroid		24,25-reductase	A0A0C6G3Q8		25217510	
 other_enzyme	StSSR1|dwf1	steroid		24,28-reductase	E1VD15		25217510	
@@ -434,7 +434,7 @@ TF	GubHLH3	triterpenoid	β-amyrin	regulation of soyasapogenol B biosynthesis	A0A
 TF	TSAR1	triterpenoid	β-amyrin	regulation of soyasaponin biosynthesis	G7KSG4		26589673	
 TF	TSAR2	triterpenoid	β-amyrin	regulation of hemolytic saponin biosynthesis	A0A072UWR1		26589673	
 TF	TSAR3	triterpenoid	β-amyrin	regulation of hemolytic saponin biosynthesis	A0A6M3RAT3		32303662	
-TF	GAME9|JRE4	steroid		regulation of steroidal alkaloid biosynthesis		XP_004229751.1	26876023,27084593	
+TF	GAME9|JRE4	steroid		regulation of steroidal alkaloid biosynthesis		XP_004229751.1	26876023	also reported in pubmed:27084593
 TF	WsWRKY1	steroid		regulation of withanolide biosynthesis	A0A220QM81		28649699	
 TF	MYB186	triterpenoid	α-amyrin|β-amyrin|lupeol	regulation of wax triterpenoid biosynthesis	B9HI97		35298644	
 TF	MYB138	triterpenoid	α-amyrin|β-amyrin|lupeol	regulation of wax triterpenoid biosynthesis	B9HI92		35298644	
