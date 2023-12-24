@@ -13,16 +13,16 @@ OSC	PpCAS	steroid		cycloartenol synthase	A0A6G8MZ72		32138546
 OSC	PtCAS1	steroid		cycloartenol synthase	A9QW75		29140303	
 OSC	PtCAS2	steroid		cycloartenol synthase	A9QW77		29140303	
 OSC	PnCAS	steroid		cycloartenol synthase	D0G7G5		20082400	
-SC	PNT			tirucalladiene synthase	D0G7G3		20082400	cyclization of squalene
-SC	PNG			germanicene synthase	D0G7G4		20082400	cyclization of squalene
+*SC	PNT			tirucalladiene synthase	D0G7G3		20082400	cyclization of squalene
+*SC	PNG			germanicene synthase	D0G7G4		20082400	cyclization of squalene
 OSC	PPX	steroid		cycloartenol synthase	A0A3G9EEY2		30042370	
-SC	PPH			22-hydroxyhopane synthase	A0A3G9ELI1		30042370	cyclization of squalene
-SC	ACH			22-hydroxyhopane synthase	A8R7G4		18154734	cyclization of squalene
-SC	DCD			dammaradiene synthase	B3Y522		18790509	cyclization of squalene
-SC	CEH1			hopene synthases	A0A0T7AQA9		26731047	cyclization of squalene
-SC	CEH2			hopene synthases	A0A0T7AQB0		26731047	cyclization of squalene
-SC	CEP			α-polypodatetraene synthase	A0A0T7AQB1		26731047	cyclization of squalene
-SC	CPH			hop-17(21)-ene synthase	A0A0T7AQB2		26731047	cyclization of squalene
+*SC	PPH			22-hydroxyhopane synthase	A0A3G9ELI1		30042370	cyclization of squalene
+*SC	ACH			22-hydroxyhopane synthase	A8R7G4		18154734	cyclization of squalene
+*SC	DCD			dammaradiene synthase	B3Y522		18790509	cyclization of squalene
+*SC	CEH1			hopene synthase	A0A0T7AQA9		26731047	cyclization of squalene
+*SC	CEH2			hopene synthase	A0A0T7AQB0		26731047	cyclization of squalene
+*SC	CEP			α-polypodatetraene synthase	A0A0T7AQB1		26731047	cyclization of squalene
+*SC	CPH			hop-17(21)-ene synthase	A0A0T7AQB2		26731047	cyclization of squalene
 OSC	TcCBS	triterpenoid	cucurbitadienol	cucurbitadienol synthase	A0A8U0LS55		34228189	
 OSC	TcIMS	triterpenoid	isomultiflorenol	isomultiflorenol synthase	A0A8U0LSG0		34228189	
 OSC	TcBAS	triterpenoid	β-amyrin	β-amyrin synthase		UWT50620.1	35980476	
@@ -48,7 +48,7 @@ OSC	ObAS1	triterpenoid	β-amyrin	β-amyrin synthase	A0A0D3L770		24367017
 OSC	ObAS2	triterpenoid	α-amyrin	α-amyrin synthase	A0A0D3L308		24367017	
 OSC	PlgOSC1	triterpenoid	β-amyrin	β-amyrin synthase	A0A1Z2WUZ5			doi:10.1007/s13580-017-0054-z
 OSC	PtBS	triterpenoid	β-amyrin	β-amyrin synthase	A1E4D1		24420413	
-OSC	TcOSC1	triterpenoid	taraxasterol|ψ-taraxasterol	"multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)	"	A0A482F799		31020326	
+OSC	TcOSC1	triterpenoid	taraxasterol|ψ-taraxasterol	multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)	A0A482F799		31020326	
 OSC	TcOSC2	triterpenoid	bauerenol	bauerenol synthase	A0A482F7E4		31020326	
 OSC	TcOSC3	triterpenoid	β-amyrin	β-amyrin synthase	A0A482FB12		31020326	
 OSC	TcOSC4	triterpenoid	taraxerol	taraxerol synthase	A0A482F830		31020326	
@@ -68,7 +68,7 @@ OSC	QsOSC1	triterpenoid	lupeol	lupeol synthase	A0A6M6AMF3		32415159
 OSC	QsOSC2	triterpenoid	β-amyrin	β-amyrin synthase	A0A6M6AMF7		32415159	
 OSC	QsOSC3	triterpenoid	friedelin	friedelin synthase	A0A6M6AMI7		32415159	
 OSC	CcCS	triterpenoid	cucurbitadienol	cucurbitadienol synthase	A0A0D3QXV2		30535727	
-OSC	LsOSC1	triterpenoid	taraxasterol|ψ-taraxasterol	"multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)	"	A0A6C0VBY3		33218626	
+OSC	LsOSC1	triterpenoid	taraxasterol|ψ-taraxasterol	multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)	A0A6C0VBY3		33218626	
 OSC	LsOSC2	triterpenoid	bauerenol	bauerenol synthase	A0A6C0VBZ8		33218626	
 OSC	LsOSC3	triterpenoid	β-amyrin	β-amyrin synthase	A0A6C0VCF6		33218626	
 OSC	LsOSC4	triterpenoid	taraxerol	taraxerol synthase	A0A6C0VCV3		33218626	
@@ -79,6 +79,9 @@ OSC	CAS	steroid		cycloartenol synthase	A0A0B5CXC8		25576188
 OSC	OSC2	triterpenoid	α-amyrin	α-amyrin synthase	A0A0B4L070		25576188	
 OSC	LUS	triterpenoid	lupeol	lupeol synthase	A0A0B5CXW5		25576188	
 OSC	EjAS	triterpenoid	α-amyrin	α-amyrin synthase	J7H6Z7		30216049	
-								
-								
-								
+OSC	TkOSC1	triterpenoid	taraxasterol	taraxasterol synthase	A0A3G1SVN5		30976052	
+OSC	TkOSC6	triterpenoid	β-amyrin	β-amyrin synthase	A0A3S7RZ84		30976052	
+OSC	TkLUP	triterpenoid	lupeol	lupeol synthase	A0A3B1EU92		29948122	
+P450	CYP716A263	triterpenoid	β-amyrin|lupeol|taraxasterol	3-oxidase	A0A3S5GS06		30976052	
+OSC	TrOSC	triterpenoid	α-amyrin	α-amyrin synthase	A0A678TRA8		35540266	
+OSC	Bra032185	triterpenoid	astertarone A	astertarone A synthase	M4ETQ3		29557662	
