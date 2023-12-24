@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 
-fp = open('v20231129_db02.tsv', 'w')
+# fp = open('v20231129_db02.tsv', 'w') # v20231129
+ver = "v20231224"
+fp = open(ver + '_db02.tsv', 'w')
 
-num = 0
-with open('v20231129_db01.tsv', encoding='utf-8') as f:
+# num = 0 # v20231129
+ini_num = 440
+num = ini_num
+# with open('v20231129_db01.tsv', encoding='utf-8') as f: # v20231129
+with open(ver + '_db01.tsv', encoding='utf-8') as f:
     for row in f:
-        if num == 0:
+#       if num == 0: # v20231129
+        if num == ini_num:
             fields = row.split('\t')
             field_list = '\t'.join(map(str, fields))
             fp.write(f'ID\t{field_list}')
