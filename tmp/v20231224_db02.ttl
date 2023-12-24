@@ -1,0 +1,1036 @@
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix ncbiprotein: <https://www.ncbi.nlm.nih.gov/protein/> .
+@prefix pubmed: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .
+
+[]
+    :ID "TP0441" ;
+    :type "OSC" ;
+    :name "ElLAS1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "lanosterol synthase" ;
+    :uniprot up:A0A482KIA0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30886213 ;
+    :note "" .
+
+[]
+    :ID "TP0442" ;
+    :type "OSC" ;
+    :name "ElBUT1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "butyrospermol" ;
+    :function "butyrospermol synthase" ;
+    :uniprot up:A0A482KG33 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30886213 ;
+    :note "" .
+
+[]
+    :ID "TP0443" ;
+    :type "OSC" ;
+    :name "ElCAS1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A482KHM6 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30886213 ;
+    :note "" .
+
+[]
+    :ID "TP0444" ;
+    :type "OSC" ;
+    :name "MiCAS1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A1L3HE28 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:27874020 ;
+    :note "" .
+
+[]
+    :ID "TP0445" ;
+    :type "OSC" ;
+    :name "MiFRS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "friedelin" ;
+    :function "friedelin synthase" ;
+    :uniprot up:A0A1L3HE30 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:27874020 ;
+    :note "" .
+
+[]
+    :ID "TP0446" ;
+    :type "OSC" ;
+    :name "McCBS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "cucurbitadienol" ;
+    :function "cucurbitadienol synthase" ;
+    :uniprot up:A0A5A4WLU4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30317922 ;
+    :note "" .
+
+[]
+    :ID "TP0447" ;
+    :type "OSC" ;
+    :name "McIMS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "isomultiflorenol" ;
+    :function "isomultiflorenol synthase" ;
+    :uniprot up:A0A5A4WQI6 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30317922 ;
+    :note "" .
+
+[]
+    :ID "TP0448" ;
+    :type "OSC" ;
+    :name "McBAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A5A4WLT5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30317922 ;
+    :note "" .
+
+[]
+    :ID "TP0449" ;
+    :type "OSC" ;
+    :name "McCAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A5A4WLY7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30317922 ;
+    :note "" .
+
+[]
+    :ID "TP0450" ;
+    :type "OSC" ;
+    :name "NtCAS1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A0A1ENJ0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:25343375 ;
+    :note "" .
+
+[]
+    :ID "TP0451" ;
+    :type "OSC" ;
+    :name "PpCAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A6G8MZ72 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32138546 ;
+    :note "" .
+
+[]
+    :ID "TP0452" ;
+    :type "OSC" ;
+    :name "PtCAS1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A9QW75 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29140303 ;
+    :note "" .
+
+[]
+    :ID "TP0453" ;
+    :type "OSC" ;
+    :name "PtCAS2" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A9QW77 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29140303 ;
+    :note "" .
+
+[]
+    :ID "TP0454" ;
+    :type "OSC" ;
+    :name "PnCAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:D0G7G5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:20082400 ;
+    :note "" .
+
+[]
+    :ID "TP0455" ;
+    :type "*SC" ;
+    :name "PNT" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "tirucalladiene synthase" ;
+    :uniprot up:D0G7G3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:20082400 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0456" ;
+    :type "*SC" ;
+    :name "PNG" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "germanicene synthase" ;
+    :uniprot up:D0G7G4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:20082400 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0457" ;
+    :type "OSC" ;
+    :name "PPX" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A3G9EEY2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30042370 ;
+    :note "" .
+
+[]
+    :ID "TP0458" ;
+    :type "*SC" ;
+    :name "PPH" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "22-hydroxyhopane synthase" ;
+    :uniprot up:A0A3G9ELI1 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30042370 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0459" ;
+    :type "*SC" ;
+    :name "ACH" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "22-hydroxyhopane synthase" ;
+    :uniprot up:A8R7G4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:18154734 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0460" ;
+    :type "*SC" ;
+    :name "DCD" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "dammaradiene synthase" ;
+    :uniprot up:B3Y522 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:18790509 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0461" ;
+    :type "*SC" ;
+    :name "CEH1" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "hopene synthase" ;
+    :uniprot up:A0A0T7AQA9 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:26731047 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0462" ;
+    :type "*SC" ;
+    :name "CEH2" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "hopene synthase" ;
+    :uniprot up:A0A0T7AQB0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:26731047 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0463" ;
+    :type "*SC" ;
+    :name "CEP" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "α-polypodatetraene synthase" ;
+    :uniprot up:A0A0T7AQB1 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:26731047 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0464" ;
+    :type "*SC" ;
+    :name "CPH" ;
+    :pathway "" ;
+    :skeleton "" ;
+    :function "hop-17(21)-ene synthase" ;
+    :uniprot up:A0A0T7AQB2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:26731047 ;
+    :note "cyclization of squalene" .
+
+[]
+    :ID "TP0465" ;
+    :type "OSC" ;
+    :name "TcCBS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "cucurbitadienol" ;
+    :function "cucurbitadienol synthase" ;
+    :uniprot up:A0A8U0LS55 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:34228189 ;
+    :note "" .
+
+[]
+    :ID "TP0466" ;
+    :type "OSC" ;
+    :name "TcIMS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "isomultiflorenol" ;
+    :function "isomultiflorenol synthase" ;
+    :uniprot up:A0A8U0LSG0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:34228189 ;
+    :note "" .
+
+[]
+    :ID "TP0467" ;
+    :type "OSC" ;
+    :name "TcBAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:UWT50620.1 ;
+    :pubmed pubmed:35980476 ;
+    :note "" .
+
+[]
+    :ID "TP0468" ;
+    :type "OSC" ;
+    :name "TcLAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "lanosterol synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:UWT50621.1 ;
+    :pubmed pubmed:35980476 ;
+    :note "" .
+
+[]
+    :ID "TP0469" ;
+    :type "OSC" ;
+    :name "TcCAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:UWT50622.1 ;
+    :pubmed pubmed:35980476 ;
+    :note "" .
+
+[]
+    :ID "TP0470" ;
+    :type "OSC" ;
+    :name "TwOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "friedelin" ;
+    :function "friedelin synthase" ;
+    :uniprot up:A0A499QXI7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30895623 ;
+    :note "" .
+
+[]
+    :ID "TP0471" ;
+    :type "OSC" ;
+    :name "TwOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A499QKY4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30895623 ;
+    :note "" .
+
+[]
+    :ID "TP0472" ;
+    :type "OSC" ;
+    :name "TwOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "friedelin" ;
+    :function "friedelin synthase" ;
+    :uniprot up:A0A499QSC3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30895623 ;
+    :note "" .
+
+[]
+    :ID "TP0473" ;
+    :type "OSC" ;
+    :name "TwOSC4" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A7G1AHR3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31838574 ;
+    :note "" .
+
+[]
+    :ID "TP0474" ;
+    :type "OSC" ;
+    :name "TwOSC6" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A7G1AJD4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31838574 ;
+    :note "" .
+
+[]
+    :ID "TP0475" ;
+    :type "OSC" ;
+    :name "TwOSC8" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A7G3GNZ9 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31838574 ;
+    :note "" .
+
+[]
+    :ID "TP0476" ;
+    :type "OSC" ;
+    :name "AeAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:D9IXA8 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:22911600 ;
+    :note "" .
+
+[]
+    :ID "TP0477" ;
+    :type "OSC" ;
+    :name "BcBAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A6G6CCP2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed: ;
+    :note "doi:10.32615/bp.2020.008" .
+
+[]
+    :ID "TP0478" ;
+    :type "OSC" ;
+    :name "BcBAS1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A977SQB2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:36160316 ;
+    :note "" .
+
+[]
+    :ID "TP0479" ;
+    :type "OSC" ;
+    :name "CsOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:XP_024957905.1 ;
+    :pubmed pubmed:31371503 ;
+    :note "" .
+
+[]
+    :ID "TP0480" ;
+    :type "OSC" ;
+    :name "CsOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:XP_015382484.1 ;
+    :pubmed pubmed:31371503 ;
+    :note "" .
+
+[]
+    :ID "TP0481" ;
+    :type "OSC" ;
+    :name "CbβAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A2P0VE73 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:28979844 ;
+    :note "" .
+
+[]
+    :ID "TP0482" ;
+    :type "OSC" ;
+    :name "GsAS1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:C1K2M2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:19420748 ;
+    :note "" .
+
+[]
+    :ID "TP0483" ;
+    :type "OSC" ;
+    :name "GmBAS1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A0R0J895 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:21630021 ;
+    :note "" .
+
+[]
+    :ID "TP0484" ;
+    :type "OSC" ;
+    :name "KsBAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A0S2IHL6 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29186583 ;
+    :note "" .
+
+[]
+    :ID "TP0485" ;
+    :type "OSC" ;
+    :name "MlbAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A0A7ADE5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:25578277 ;
+    :note "" .
+
+[]
+    :ID "TP0486" ;
+    :type "OSC" ;
+    :name "ObAS1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A0D3L770 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24367017 ;
+    :note "" .
+
+[]
+    :ID "TP0487" ;
+    :type "OSC" ;
+    :name "ObAS2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up:A0A0D3L308 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24367017 ;
+    :note "" .
+
+[]
+    :ID "TP0488" ;
+    :type "OSC" ;
+    :name "PlgOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A1Z2WUZ5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed: ;
+    :note "doi:10.1007/s13580-017-0054-z" .
+
+[]
+    :ID "TP0489" ;
+    :type "OSC" ;
+    :name "PtBS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A1E4D1 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24420413 ;
+    :note "" .
+
+[]
+    :ID "TP0490" ;
+    :type "OSC" ;
+    :name "TcOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "taraxasterol|ψ-taraxasterol" ;
+    :function "multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)" ;
+    :uniprot up:A0A482F799 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31020326 ;
+    :note "" .
+
+[]
+    :ID "TP0491" ;
+    :type "OSC" ;
+    :name "TcOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "bauerenol" ;
+    :function "bauerenol synthase" ;
+    :uniprot up:A0A482F7E4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31020326 ;
+    :note "" .
+
+[]
+    :ID "TP0492" ;
+    :type "OSC" ;
+    :name "TcOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A482FB12 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31020326 ;
+    :note "" .
+
+[]
+    :ID "TP0493" ;
+    :type "OSC" ;
+    :name "TcOSC4" ;
+    :pathway "triterpenoid" ;
+    :skeleton "taraxerol" ;
+    :function "taraxerol synthase" ;
+    :uniprot up:A0A482F830 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:31020326 ;
+    :note "" .
+
+[]
+    :ID "TP0494" ;
+    :type "OSC" ;
+    :name "TaOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A6G9RV78 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32005387 ;
+    :note "" .
+
+[]
+    :ID "TP0495" ;
+    :type "OSC" ;
+    :name "TaOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up:A0A6G9RWV4 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32005387 ;
+    :note "" .
+
+[]
+    :ID "TP0496" ;
+    :type "OSC" ;
+    :name "TaOSC3" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A6G9RUW7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32005387 ;
+    :note "" .
+
+[]
+    :ID "TP0497" ;
+    :type "OSC" ;
+    :name "TaOSC4" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:A0A6G9RWP2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32005387 ;
+    :note "" .
+
+[]
+    :ID "TP0498" ;
+    :type "OSC" ;
+    :name "WsOSC/BS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:V9LXY6 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24770414 ;
+    :note "" .
+
+[]
+    :ID "TP0499" ;
+    :type "OSC" ;
+    :name "WsOSC/LS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:V9LYF2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24770414 ;
+    :note "" .
+
+[]
+    :ID "TP0500" ;
+    :type "OSC" ;
+    :name "WsOSC/CS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:D6R1X1 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:24770414 ;
+    :note "" .
+
+[]
+    :ID "TP0501" ;
+    :type "OSC" ;
+    :name "QsbAS1|Qs0315350" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:WEU75096.1 ;
+    :pubmed pubmed:36952412 ;
+    :note "" .
+
+[]
+    :ID "TP0502" ;
+    :type "OSC" ;
+    :name "BfOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:BBI55112.1 ;
+    :pubmed pubmed:31230357 ;
+    :note "" .
+
+[]
+    :ID "TP0503" ;
+    :type "OSC" ;
+    :name "BfOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "germanicol" ;
+    :function "germanicol synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:BBI55113.1 ;
+    :pubmed pubmed:31230357 ;
+    :note "" .
+
+[]
+    :ID "TP0504" ;
+    :type "OSC" ;
+    :name "BfOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:BBI55114.1 ;
+    :pubmed pubmed:31230357 ;
+    :note "" .
+
+[]
+    :ID "TP0505" ;
+    :type "OSC" ;
+    :name "BfOSC4" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:BBI55115.1 ;
+    :pubmed pubmed:31230357 ;
+    :note "" .
+
+[]
+    :ID "TP0506" ;
+    :type "OSC" ;
+    :name "QsOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:A0A6M6AMF3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32415159 ;
+    :note "" .
+
+[]
+    :ID "TP0507" ;
+    :type "OSC" ;
+    :name "QsOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A6M6AMF7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32415159 ;
+    :note "" .
+
+[]
+    :ID "TP0508" ;
+    :type "OSC" ;
+    :name "QsOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "friedelin" ;
+    :function "friedelin synthase" ;
+    :uniprot up:A0A6M6AMI7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:32415159 ;
+    :note "" .
+
+[]
+    :ID "TP0509" ;
+    :type "OSC" ;
+    :name "CcCS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "cucurbitadienol" ;
+    :function "cucurbitadienol synthase" ;
+    :uniprot up:A0A0D3QXV2 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30535727 ;
+    :note "" .
+
+[]
+    :ID "TP0510" ;
+    :type "OSC" ;
+    :name "LsOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "taraxasterol|ψ-taraxasterol" ;
+    :function "multifunctional triterpene synthase (taraxasterol, ψ-taraxasterol, etc.)" ;
+    :uniprot up:A0A6C0VBY3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:33218626 ;
+    :note "" .
+
+[]
+    :ID "TP0511" ;
+    :type "OSC" ;
+    :name "LsOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "bauerenol" ;
+    :function "bauerenol synthase" ;
+    :uniprot up:A0A6C0VBZ8 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:33218626 ;
+    :note "" .
+
+[]
+    :ID "TP0512" ;
+    :type "OSC" ;
+    :name "LsOSC3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A6C0VCF6 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:33218626 ;
+    :note "" .
+
+[]
+    :ID "TP0513" ;
+    :type "OSC" ;
+    :name "LsOSC4" ;
+    :pathway "triterpenoid" ;
+    :skeleton "taraxerol" ;
+    :function "taraxerol synthase" ;
+    :uniprot up:A0A6C0VCV3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:33218626 ;
+    :note "" .
+
+[]
+    :ID "TP0514" ;
+    :type "OSC" ;
+    :name "LsOSC5" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:A0A2J6KIP0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:33218626 ;
+    :note "" .
+
+[]
+    :ID "TP0515" ;
+    :type "OSC" ;
+    :name "BdOSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "isoarborinol" ;
+    :function "isoarborinol synthase" ;
+    :uniprot up:A0A0Q3HS97 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:35412884 ;
+    :note "" .
+
+[]
+    :ID "TP0516" ;
+    :type "OSC" ;
+    :name "TaIAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "isoarborinol" ;
+    :function "isoarborinol synthase" ;
+    :uniprot up:A0A3B6MKN7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:35412884 ;
+    :note "" .
+
+[]
+    :ID "TP0517" ;
+    :type "OSC" ;
+    :name "CAS" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "cycloartenol synthase" ;
+    :uniprot up:A0A0B5CXC8 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:25576188 ;
+    :note "" .
+
+[]
+    :ID "TP0518" ;
+    :type "OSC" ;
+    :name "OSC2" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up:A0A0B4L070 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:25576188 ;
+    :note "" .
+
+[]
+    :ID "TP0519" ;
+    :type "OSC" ;
+    :name "LUS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:A0A0B5CXW5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:25576188 ;
+    :note "" .
+
+[]
+    :ID "TP0520" ;
+    :type "OSC" ;
+    :name "EjAS" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up:J7H6Z7 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30216049 ;
+    :note "" .
+
+[]
+    :ID "TP0521" ;
+    :type "OSC" ;
+    :name "TkOSC1" ;
+    :pathway "triterpenoid" ;
+    :skeleton "taraxasterol" ;
+    :function "taraxasterol synthase" ;
+    :uniprot up:A0A3G1SVN5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30976052 ;
+    :note "" .
+
+[]
+    :ID "TP0522" ;
+    :type "OSC" ;
+    :name "TkOSC6" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "β-amyrin synthase" ;
+    :uniprot up:A0A3S7RZ84 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30976052 ;
+    :note "" .
+
+[]
+    :ID "TP0523" ;
+    :type "OSC" ;
+    :name "TkLUP" ;
+    :pathway "triterpenoid" ;
+    :skeleton "lupeol" ;
+    :function "lupeol synthase" ;
+    :uniprot up:A0A3B1EU92 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29948122 ;
+    :note "" .
+
+[]
+    :ID "TP0524" ;
+    :type "P450" ;
+    :name "CYP716A263" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin|lupeol|taraxasterol" ;
+    :function "3-oxidase" ;
+    :uniprot up:A0A3S5GS06 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:30976052 ;
+    :note "" .
+
+[]
+    :ID "TP0525" ;
+    :type "OSC" ;
+    :name "TrOSC" ;
+    :pathway "triterpenoid" ;
+    :skeleton "α-amyrin" ;
+    :function "α-amyrin synthase" ;
+    :uniprot up:A0A678TRA8 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:35540266 ;
+    :note "" .
+
+[]
+    :ID "TP0526" ;
+    :type "OSC" ;
+    :name "Bra032185" ;
+    :pathway "triterpenoid" ;
+    :skeleton "astertarone A" ;
+    :function "astertarone A synthase" ;
+    :uniprot up:M4ETQ3 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29557662 ;
+    :note "" .
