@@ -94,7 +94,7 @@ OSC	PEN1	triterpenoid	arabidiol	arabidiol synthase	Q9FR95		17474751	also reporte
 OSC	CqOSC2|CqQS	triterpenoid	(−)-quinoxide A	(−)-quinoxide A synthase		XP_021761950.1	37904576	
 OSC	PEN6	triterpenoid	β-seco-amyrin|α-seco-amyrin	seco-amyrin synthase (β-seco-amyrin, α-seco-amyrin)	Q9SYN1		17263431	
 OSC	PSM	triterpenoid	α-amyrin|β-amyrin	mixed amyrin synthase (α-amyrin, β-amyrin)	Q9LRH7		10848960	
-OSC	LUP2|YUP8H12R.43	triterpenoid	taraxasterol|β-amyrin	multifunctional triterpene synthase (taraxasterol, β-amyrin, etc.)	Q8RWT0			doi:10.1016/S0040-4039(00)01347-2
+OSC	LUP2	triterpenoid	taraxasterol|β-amyrin	multifunctional triterpene synthase (taraxasterol, β-amyrin, etc.)	Q8RWT0			doi:10.1016/S0040-4039(00)01347-2
 OSC	CSOSC2	triterpenoid	lupeol|germanicol|β-amyrin	multifunctional triterpene synthase (lupeol, germanicol, β-amyrin)	Q8VWY3		11995928	
 OSC	KcMS	triterpenoid	lupeol|β-amyrin|α-amyrin	multifunctional triterpene synthase (lupeol, β-amyrin, α-amyrin)	Q05K37		17078982	
 OSC	AMY2	triterpenoid	lupeol|β-amyrin	multifunctional triterpene synthase (lupeol, β-amyrin)	Q84PE1		12683345	production of β-amyrin, dihydrolupeol in Nicotiana benthamiana (pubmed:23909862)
@@ -106,7 +106,7 @@ P450	CYP51H15|BdIAH	triterpenoid	isoarborinol	19α-hydroxylase	I1I3G9		35412884
 P450	CYP51H16|BdTIH	triterpenoid	isoarborinol	1β-hydroxylase	I1I3H0		35412884	
 P450	CYP51H35|TaIAH	triterpenoid	isoarborinol	19α-hydroxylase		UPL51485.1	35412884	
 P450	CYP51H37|TaHIO	triterpenoid	isoarborinol	25-hydroxylase	A0A3B6MJD7		35412884	
-P450	CYP71A16|MRNO|MRO	triterpenoid	marneral	23-hydroxylase	Q9FH66		23570231	
+P450	CYP71A16|MRO	triterpenoid	marneral	23-hydroxylase	Q9FH66		23570231	
 P450	CYP71BQ4	triterpenoid	tirucalla-7,24-dien-3β-ol	21-oxidase		XP_006469495.1	31371503	
 P450	CYP71BQ5	triterpenoid	tirucalla-7,24-dien-3β-ol	21-oxidase	A0A5B8NEF2		31371503	
 P450	CYP71BQ17	triterpenoid	tirucalla-7,24-dien-3β-ol	21-oxidase		UTU07509.1	36082289	
@@ -146,7 +146,7 @@ P450	CYP72A694	triterpenoid	β-amyrin	29-oxidase	A0A5P8TXJ3		31850023
 P450	CYP72A697	triterpenoid	β-amyrin	29-hydroxylase	A0A5P8TXS9		31850023	
 P450	CYP72A699	triterpenoid	β-amyrin	21-hydroxylase|29-oxidase	A0A5P8TXT7		31850023	
 P450	CYP81Q58|Csa6G088160	triterpenoid	cucurbitadienol	25-hydroxylase	A0A097IYP1		25430763	
-P450	CYP81Q59|Melo3C022375|Cm180	triterpenoid	cucurbitadienol	2β-hydroxylase	A0A1S3CBC7		27892922	
+P450	CYP81Q59|Melo3C022375	triterpenoid	cucurbitadienol	2β-hydroxylase	A0A1S3CBC7		27892922	
 P450	CYP81AM1	triterpenoid	friedelin	24-oxidase		WEW62272.1	37365337	
 P450	CYP81AQ19	triterpenoid	cucurbitadienol	23α-hydroxylase	A0A5K7U6A3		31656227	
 P450	CYP82J17	steroid		26-hydroxylase	A0A517FND1		31324795	
@@ -157,8 +157,8 @@ P450	CYP85A2|BR6ox2	steroid		6-oxidase	Q940V4		12529536	also reported in pubmed:
 P450	CYP85A3	steroid		6-oxidase	Q50LE0		15710611	
 P450	CYP87D16	triterpenoid	β-amyrin	16α-hydroxylase	A0A0B4KZX8		25578277	
 P450	CYP87D18	triterpenoid	cucurbitadienol	11-oxidase	K7NBR2		26903528	
-P450	CYP87D20|Csa1G044890|Cs890	triterpenoid	cucurbitadienol	11-oxidase|20β-hydroxylase	A0A0A0LQP6		27892922	
-P450	CYP87D20|Melo3C002192|Cm890	triterpenoid	cucurbitadienol	11-oxidase|20β-hydroxylase	A0A1S3AUF5		27892922	
+P450	CYP87D20|Csa1G044890	triterpenoid	cucurbitadienol	11-oxidase|20β-hydroxylase	A0A0A0LQP6		27892922	
+P450	CYP87D20|Melo3C002192	triterpenoid	cucurbitadienol	11-oxidase|20β-hydroxylase	A0A1S3AUF5		27892922	
 P450	CYP88A13	triterpenoid	β-amyrin	16α-hydroxylase	G7JZW6		32303662	
 P450	CYP88A37	triterpenoid	tirucalla-7,24-dien-3β-ol	1α-hydroxylase		WCJ12485.1	36701471	
 P450	CYP88A51	triterpenoid	tirucalla-7,24-dien-3β-ol	7,8-epoxidase		WCJ12492.1	36701471	
@@ -246,7 +246,7 @@ P450	CYP716A154|CrAO	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	I1TEM3		
 P450	CYP716A155|RoCYP01	triterpenoid	α-amyrin|β-amyrin|lupeol	28-oxidase	A0A6G7GG58		31309269	
 P450	CYP716A175	triterpenoid	α-amyrin|β-amyrin|lupeol|germanicol	28-oxidase	A0A498ICX4		27214242	
 P450	CYP716A179	triterpenoid	α-amyrin|β-amyrin|lupeol	22α-hydroxylase|28-oxidase	A0A1L7NXK5		28008473	
-P450	CYP716A180|BPLO|ATH1	triterpenoid	lupeol	28-oxidase	W8QDR9		27534392	
+P450	CYP716A180|BPLO	triterpenoid	lupeol	28-oxidase	W8QDR9		27534392	
 P450	CYP716A210|IaAO1	triterpenoid	α-amyrin	28-oxidase	A0A6B9MJR5		32508864	
 P450	CYP716A224|Qs0259300	triterpenoid	β-amyrin	28-oxidase		WEU75100.1	36952412	
 P450	CYP716A244	triterpenoid	β-amyrin	28-oxidase	A0A1P8W705		28012567	
@@ -373,7 +373,7 @@ other_enzyme	SOAP10	triterpenoid	β-amyrin	acetyltransferase		KNA12459.1	3242430
 other_enzyme	SCPL1|Sad7	triterpenoid	β-amyrin	21-O-acyltransferase	C8YJB5		19684243	
 other_enzyme	THAA1	triterpenoid	thalianol	15-O-acetyltransferase	Q9FI40		31073042	
 other_enzyme	THAA2	triterpenoid	thalianol|arabidiol|tirucalla-7,24-dien-3β-ol	3-O-acetyltransferase	Q9FGV4		31073042	
-other_enzyme	THAA3|AtSAT1|ASAT1	triterpenoid	thalianol|arabidiol|tirucalla-7,24-dien-3β-ol|marneral	3-O-acyltransferase	Q9SV07		31073042	also reported as sterol O-acyltransferase (pubmed:17885082)
+other_enzyme	THAA3|ASAT1	triterpenoid	thalianol|arabidiol|tirucalla-7,24-dien-3β-ol|marneral	3-O-acyltransferase	Q9SV07		31073042	also reported as sterol O-acyltransferase (pubmed:17885082)
 other_enzyme	GmSSAcT1	triterpenoid	β-amyrin	acetyltransferase	I1N4C1		37548097	
 other_enzyme	THAR1	triterpenoid	thalianol|arabidiol|tirucalla-7,24-dien-3β-ol	3-epimerase	F4J2Z7		31073042	
 other_enzyme	THAR2	triterpenoid	thalianol|arabidiol|tirucalla-7,24-dien-3β-ol	3-epimerase	F4HQ07		31073042	
