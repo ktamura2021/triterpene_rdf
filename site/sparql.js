@@ -17,7 +17,7 @@ PREFIX up: <http://purl.uniprot.org/uniprot/>
 PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
 PREFIX : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#>
 
-SELECT ?ID ?type ?name ?pathway ?function ?uniprot ?species ?family ?order ?pubmed
+SELECT ?ID ?type ?name ?pathway ?skeleton ?function ?uniprot ?ncbiprotein ?species ?family ?order ?pubmed ?note
 WHERE {
   ${valuesForType}
   ${valuesForPathway}
@@ -26,12 +26,15 @@ WHERE {
       :ID ?ID ;
       :name ?name ;
       :pathway ?pathway ;
+      :skeleton ?skeleton ;
       :function ?function ;
       :uniprot ?uniprot ;
+      :ncbiprotein ?ncbiprotein ;
       :family ?family ;
       :order ?order ;
       :species ?species ;
-      :pubmed ?pubmed .
+      :pubmed ?pubmed ; 
+      :note ?note .
 }
 `;
 
