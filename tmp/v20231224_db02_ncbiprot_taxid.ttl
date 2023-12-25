@@ -1,0 +1,42 @@
+@prefix up_taxonomy: <http://purl.uniprot.org/taxonomy/> .
+@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .
+
+[]
+    :ID "TP0467" ;
+    :up_taxonomy up_taxonomy:50543 .
+
+[]
+    :ID "TP0468" ;
+    :up_taxonomy up_taxonomy:50543 .
+
+[]
+    :ID "TP0469" ;
+    :up_taxonomy up_taxonomy:50543 .
+
+[]
+    :ID "TP0479" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0480" ;
+    :up_taxonomy up_taxonomy:2711 .
+
+[]
+    :ID "TP0501" ;
+    :up_taxonomy up_taxonomy:32244 .
+
+[]
+    :ID "TP0502" ;
+    :up_taxonomy up_taxonomy:413686 .
+
+[]
+    :ID "TP0503" ;
+    :up_taxonomy up_taxonomy:413686 .
+
+[]
+    :ID "TP0504" ;
+    :up_taxonomy up_taxonomy:413686 .
+
+[]
+    :ID "TP0505" ;
+    :up_taxonomy up_taxonomy:413686 .

@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 
-file_name = 'v20231129_db02_ncbiprot_taxid.tsv'
+# file_name = 'v20231129_db02_ncbiprot_taxid.tsv' # v20231129
+ver = 'v20231224'
+file_name = ver + '_db02_ncbiprot_taxid.tsv'
 
 fp = open(file_name.replace('.tsv', '.ttl'), 'w')
 
