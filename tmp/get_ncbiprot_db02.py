@@ -5,9 +5,13 @@ import time
 import requests
 import json
 
-input_file_path = 'v20231129_db02.tsv'
-output_file_path_1 = 'v20231129_db02_ncbiprot_taxid.tsv'
-output_file_path_2 = 'v20231129_db02_ncbiprot_seq.tsv'
+# input_file_path = 'v20231129_db02.tsv' # v20231129
+# output_file_path_1 = 'v20231129_db02_ncbiprot_taxid.tsv' # v20231129
+# output_file_path_2 = 'v20231129_db02_ncbiprot_seq.tsv' # v20231129
+ver = 'v20231224'
+input_file_path = ver + '_db02.tsv'
+output_file_path_1 = ver + '_db02_ncbiprot_taxid.tsv'
+output_file_path_2 = ver + '_db02_ncbiprot_seq.tsv'
 
 rows = []
 with open(input_file_path, 'r', newline='', encoding='utf-8') as input_file:
