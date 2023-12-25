@@ -12,13 +12,21 @@ def read_tsv(file_path):
 def sort_by_numeric_id(table):
     return sorted(table, key=lambda x: int(x["ID"][2:]))
 
-table1 = read_tsv('v20231129_db02.tsv')
-table2 = read_tsv('v20231129_db02_up_getfamily.tsv')
-table3 = read_tsv('v20231129_db02_up_getorder.tsv')
-table4 = read_tsv('v20231129_db02_up_getseq.tsv')
-table5 = read_tsv('v20231129_db02_ncbiprot_getfamily.tsv')
-table6 = read_tsv('v20231129_db02_ncbiprot_getorder.tsv')
-table7 = read_tsv('v20231129_db02_ncbiprot_seq.tsv')
+# table1 = read_tsv('v20231129_db02.tsv') # v20231129
+# table2 = read_tsv('v20231129_db02_up_getfamily.tsv') # v20231129
+# table3 = read_tsv('v20231129_db02_up_getorder.tsv') # v20231129
+# table4 = read_tsv('v20231129_db02_up_getseq.tsv') # v20231129
+# table5 = read_tsv('v20231129_db02_ncbiprot_getfamily.tsv') # v20231129
+# table6 = read_tsv('v20231129_db02_ncbiprot_getorder.tsv') # v20231129
+# table7 = read_tsv('v20231129_db02_ncbiprot_seq.tsv') # v20231129
+ver = 'v20231224'
+table1 = read_tsv(ver + '_db02.tsv')
+table2 = read_tsv(ver + '_db02_up_getfamily.tsv')
+table3 = read_tsv(ver + '_db02_up_getorder.tsv')
+table4 = read_tsv(ver + '_db02_up_getseq.tsv')
+table5 = read_tsv(ver + '_db02_ncbiprot_getfamily.tsv')
+table6 = read_tsv(ver + '_db02_ncbiprot_getorder.tsv')
+table7 = read_tsv(ver + '_db02_ncbiprot_seq.tsv')
 
 # combine data from up and ncbiprot
 taxonomy_1 = table2 + table5
@@ -47,7 +55,8 @@ for row1 in table1:
         db03.append({**row1, **maching_row})
 
 # export
-output_file_path = 'v20231129_db03.tsv'
+# output_file_path = 'v20231129_db03.tsv' # v20231129
+output_file_path = ver + '_db03.tsv'
 header = db03[0].keys() if db03 else []
 
 with open(output_file_path, 'w', newline='', encoding='utf-8') as output_file:
