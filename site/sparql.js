@@ -75,9 +75,9 @@ async function fetchFastaBySPARQL(selectedType, selectedPathway, selectedOrder) 
   const sparqlQuery = `
 PREFIX up: <http://purl.uniprot.org/uniprot/>
 PREFIX pubmed: <https://pubmed.ncbi.nlm.nih.gov/>
-PREFIX : <https://raw.githubusercontent.com/ktamura2021/triterpenoid_rdf/main/ontology.ttl#>
+PREFIX : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> 
 
-SELECT ?ID ?type ?name ?sequence
+SELECT ?ID ?type ?name ?species ?sequence
 WHERE {
   ${valuesForType}
   ${valuesForPathway}
@@ -87,6 +87,7 @@ WHERE {
       :name ?name ;
       :pathway ?pathway ;
       :order ?order ;
+      :species ?species ;
       :aa_sequence ?sequence .
 }
 `;
