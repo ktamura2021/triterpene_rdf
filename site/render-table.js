@@ -178,10 +178,10 @@ function downloadResults(data) {
   let fasta = '';
   data.results.bindings.forEach(binding => {
     const id = binding.ID.value;
-    const type = binding.type.value;
     const name = binding.name.value;
+    const species = binding.species.value;
     const sequence = binding.sequence.value;
-    fasta += `>${id} ${type} ${name}\n${sequence}\n`;
+    fasta += `>${id} ${name} ${species}\n${sequence}\n`;
   });
   const link = document.createElement('a');
   const blob = new Blob([fasta], {type: 'text/plain'});
