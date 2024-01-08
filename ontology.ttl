@@ -1,0 +1,85 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix ncbiprotein: <https://www.ncbi.nlm.nih.gov/protein/> .
+@prefix pubmed: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .
+
+<https://ktamura2021.github.io/triterpene_rdf/ontology.ttl>
+  a owl:Ontology ;
+  dct:title "Triterpene RDF" ;
+  dct:description "A database of enzymes and transcription factors involved in triterpene biosynthesis in plants" .
+
+:ID
+  a owl:Class ;
+  rdfs:label "ID" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:type
+  a owl:Class ;
+  rdfs:label "type" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:name
+  a owl:Class ;
+  rdfs:label "name" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:pathway
+  a owl:Class ;
+  rdfs:label "pathway" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:skeleton
+  a owl:Class ;
+  rdfs:label "skeleton" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:function
+  a owl:Class ;
+  rdfs:label "function" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:uniprot
+  a owl:ObjectProperty ;
+  rdfs:label "uniprot" ;
+  rdfs:range up:Protein ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:ncbiprotein
+  a owl:ObjectProperty ;
+  rdfs:label "ncbiprotein" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:pubmed
+  a owl:ObjectProperty ;
+  rdfs:label "pubmed" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:note
+  a owl:Class ;
+  rdfs:label "note" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:species
+  a owl:Class ;
+  rdfs:label "species" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:family
+  a owl:Class ;
+  rdfs:label "family" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:order
+  a owl:Class ;
+  rdfs:label "order" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
+
+:aa_sequence
+  a owl:Class ;
+  rdfs:label "aa_sequence" ;
+  rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
