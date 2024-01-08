@@ -80,6 +80,6 @@
   rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
 
 :aa_sequence
-  a owl:Class ;
+  a owl:DatatypeProperty ;
   rdfs:label "aa_sequence" ;
   rdfs:isDefinedBy <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl> .
