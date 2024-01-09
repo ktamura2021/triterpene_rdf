@@ -1,5 +1,5 @@
 # Triterpene RDF
-A database of enzymes and transcription factors involved in triterpene biosynthesis in plants
+A Resource Description Framework database of plant enzymes and transcription factors involved in triterpene biosynthesis
 
 ## How to use the database
 1. Open the following URL (https://ktamura2021.github.io/triterpene_rdf/). All entries are displayed.
