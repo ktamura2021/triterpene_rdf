@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-file_name = 'v20231224_dbfinal.tsv'
+# file_name = 'v20231224_dbfinal.tsv'
+file_name = 'dbfinal.tsv'
 
 fp = open(file_name.replace('.tsv', '.ttl'), 'w')
 
