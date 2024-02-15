@@ -1,6 +1,7 @@
 # Get species and family from taxid linked to ncbiprot
 # saved as v20231129_db02_ncbiprot_getfamily.tsv # v20231129
-# saved as v20231224_db02_ncbiprot_getfamily.tsv
+# saved as v20231224_db02_ncbiprot_getfamily.tsv # v20231224
+# saved as v20240207_db02_ncbiprot_getfamily.tsv
 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>

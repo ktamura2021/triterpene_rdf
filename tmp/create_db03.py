@@ -19,7 +19,8 @@ def sort_by_numeric_id(table):
 # table5 = read_tsv('v20231129_db02_ncbiprot_getfamily.tsv') # v20231129
 # table6 = read_tsv('v20231129_db02_ncbiprot_getorder.tsv') # v20231129
 # table7 = read_tsv('v20231129_db02_ncbiprot_seq.tsv') # v20231129
-ver = 'v20231224'
+# ver = 'v20231224'
+ver = 'v20240207'
 table1 = read_tsv(ver + '_db02.tsv')
 table2 = read_tsv(ver + '_db02_up_getfamily.tsv')
 table3 = read_tsv(ver + '_db02_up_getorder.tsv')

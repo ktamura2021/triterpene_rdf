@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
 # fp = open('v20231129_db02.tsv', 'w') # v20231129
-ver = "v20231224"
+# ver = "v20231224" # v20231224
+ver = "v20240207"
 fp = open(ver + '_db02.tsv', 'w')
 
 # num = 0 # v20231129
-ini_num = 440
+# ini_num = 440 # v20231224
+ini_num = 526
 num = ini_num
 # with open('v20231129_db01.tsv', encoding='utf-8') as f: # v20231129
 with open(ver + '_db01.tsv', encoding='utf-8') as f:
