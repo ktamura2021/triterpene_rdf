@@ -1,0 +1,76 @@
+@prefix up: <http://purl.uniprot.org/uniprot/> .
+@prefix ncbiprotein: <https://www.ncbi.nlm.nih.gov/protein/> .
+@prefix pubmed: <https://pubmed.ncbi.nlm.nih.gov/> .
+@prefix : <https://ktamura2021.github.io/triterpene_rdf/ontology.ttl#> .
+
+[]
+    :ID "TP0527" ;
+    :type "P450" ;
+    :name "CYP72A208|PGA1" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "26-hydroxylase" ;
+    :uniprot up:A0A193PE91 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:27307258 ;
+    :note "" .
+
+[]
+    :ID "TP0528" ;
+    :type "P450" ;
+    :name "CYP72A188|PGA2" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "22-hydroxylase" ;
+    :uniprot up:M1AUM0 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:27307258 ;
+    :note "" .
+
+[]
+    :ID "TP0529" ;
+    :type "other_enzyme" ;
+    :name "PGA4" ;
+    :pathway "steroid" ;
+    :skeleton "" ;
+    :function "26-aminotransferase" ;
+    :uniprot up:A0A679DYE8 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:34273198 ;
+    :note "" .
+
+[]
+    :ID "TP0530" ;
+    :type "P450" ;
+    :name "CYP72A61" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "22β-hydroxylase" ;
+    :uniprot up:I1KW78 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:27775214 ;
+    :note "originally reported in JP Patent Application Publication No. 2011-024534" .
+
+[]
+    :ID "TP0531" ;
+    :type "UGT" ;
+    :name "UGT73P10|Sg-4" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "arabinosyltransferase" ;
+    :uniprot up: ;
+    :ncbiprotein ncbiprotein:BBD84861.1 ;
+    :pubmed pubmed:30261341 ;
+    :note "" .
+
+[]
+    :ID "TP0532" ;
+    :type "UGT" ;
+    :name "UGT91H9|Sg-3" ;
+    :pathway "triterpenoid" ;
+    :skeleton "β-amyrin" ;
+    :function "glucosyltransferase" ;
+    :uniprot up:A0A0R0HRL5 ;
+    :ncbiprotein ncbiprotein: ;
+    :pubmed pubmed:29401289 ;
+    :note "" .
