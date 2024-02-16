@@ -187,7 +187,7 @@ function downloadResults(data) {
   const blob = new Blob([fasta], {type: 'text/plain'});
   const date = new Date().toISOString().slice(0,10);
   link.href = URL.createObjectURL(blob);
-  link.download = `triterpenoid_${date}.fa`;
+  link.download = `triterpene_${date}.fa`;
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
